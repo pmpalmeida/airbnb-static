@@ -58,6 +58,28 @@ title: Le Wagon Middleman boilerplate
   <div class="container">
     <h2 class="text-center">Your next trip</h2>
     <div class="row">
+
+<!-- ............................... -->
+
+
+    <% data.flats.each do |owner, flat| %>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('<%= image_path flat.picture %>');">
+        <div class="card-category"><%= flat.city %></div>
+        <div class="card-description">
+          <h2><%= flat.name %></h2>
+          <p><%= flat.summary %></p>
+        </div>
+        <%= image_tag flat.owner_picture, class:"card-user avatar avatar-large" %>
+        <%= link_to "#", "flats/#{owner}.html", class: "card-link" %>
+      </div>
+    </div>
+    <% end %>
+
+<!-- ............................... -->
+
+
+
       <div class="col-xs-12 col-sm-4">
         <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/background-paris.jpg');">
           <div class="card-category">Paris, France</div>
@@ -97,6 +119,8 @@ title: Le Wagon Middleman boilerplate
           <%= link_to "", "flats/romain.html", class: "card-link" %>
         </div>
       </div>
+
+
     </div>
   </div>
 </div>

@@ -1,0 +1,45 @@
+seb:
+  owner_name: Sebastien Saunier
+  picture: images/background-paris.jpg
+  owner_picture: images/seb.jpeg
+  name: Seb's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+  number_of_guests: 3
+romain:
+  owner_name: Romain Paillard
+  picture: images/background-london.jpg
+  owner_picture: images/romain.jpeg
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
+  number_of_guests: 2
+romain2:
+  owner_name: Romain Paillard
+  picture: images/background-london.jpg
+  owner_picture: images/romain.jpeg
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
+  number_of_guests: 2
+romain3:
+  owner_name: Romain Paillard
+  picture: images/background-london.jpg
+  owner_picture: images/romain.jpeg
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
+  number_of_guests: 2
+romain4:
+  owner_name: Romain Paillard
+  picture: images/background-london.jpg
+  owner_picture: images/romain.jpeg
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
+  number_of_guests: 2
